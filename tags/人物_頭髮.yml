@@ -1,0 +1,81 @@
+發色:
+  単色:
+    黑髮: black hair
+    金髮: blonde hair
+    茶發: brown hair
+    赤發: red hair
+    粉發: pink hair
+    藍發: blue hair
+    水色發: aqua hair
+    緑發: green hair
+    紫發: purple hair
+    橙發: orange hair
+    銀發: silver hair
+    灰發: gray hair
+    白髮: white hair
+  多色:
+    多色: multicolored hair
+    條紋色: streaked hair
+    漸變色: gradient hair
+    內側彩色: colored inner hair
+    分叉色: split-color hair
+
+髮型:
+  長度:
+    極短髮: very short hair
+    短髮: short hair
+    中等長度: medium hair
+    長髮: long hair
+    超長髮: very long hair
+    超超長髮: absurdly long hair
+  種類:
+    亂發: messy hair
+    直發: straight hair
+    波浪發: wavy hair
+    翻捲髮: flipped hair
+    非対稱: asymmetrical hair
+  馬尾:
+    馬尾: ponytail
+    高馬尾: high ponytail
+    低馬尾: low ponytail
+    前馬尾: front ponytail
+    側馬尾: side ponytail
+    分叉馬尾: split ponytail
+    折疊馬尾: folded ponytail
+    短馬尾: short ponytail
+  雙馬尾:
+    雙馬尾: twintails
+    低雙馬尾: low twintails
+    短雙馬尾: short twintails
+    三馬尾: tri tails
+    四馬尾: quad tails
+  辮子: braid
+  半向上: half updo
+  一邊向上: one side up
+  兩邊向上: two side up
+  多股頭髮: multi-tied hair
+  頭頂結: topknot
+  捲髮: curly hair
+  鑽頭毛: drill hair
+  雙鑽頭毛: twin drills
+  垂長卷: ringlets
+  弓型發: bow-shaped hair
+  發髻: hair bun
+  發圈: hair rings
+  長髮綹: dreadlocks
+
+前發:
+  鈍劉海: blunt bangs
+  非対稱劉海: asymmetrical bangs
+  眼睛上方劉海:  hair over eyes
+  一直眼睛上方劉海: hair over one eye
+  分劉海: parted bangs
+  齊劉海: swept bangs
+  眼睛間頭髮: hair between eyes
+  發量: hair intakes
+  觸角: sidelocks
+
+其他:
+  橫發: hair flaps
+  傻毛: ahoge
+  天線毛: antenna hair
