@@ -1,3 +1,5 @@
+# 2024-6-5 txt2img and img2img both tab work
+#
 from pathlib import Path
 import random
 import re
@@ -91,18 +93,24 @@ class Script(scripts.Script):
 
     def ui(self, is_img2img):
         if (is_img2img):
+            print("ui is_img2img")
             return None
-
-        reload_button = gr.Button('🔄', variant='secondary', elem_id='easy_prompt_selector_reload_button')
-        reload_button.style(size='sm')
+        else:
+            print("ui is_txt2img")
+        
+        reload_button_txt = gr.Button('🔄', variant='secondary', elem_id='easy_prompt_selector_reload_button_txt2img')        
+        reload_button_img = gr.Button('🔄', variant='secondary', elem_id='easy_prompt_selector_reload_button_img2img')
+        reload_button_txt.style(size='sm')
+        reload_button_img.style(size='sm')
 
         def reload():
             self.tags = load_tags()
             write_filename_list()
 
-        reload_button.click(fn=reload)
+        reload_button_txt.click(fn=reload)
+        reload_button_img.click(fn=reload)
 
-        return [reload_button]
+        return [reload_button_txt, reload_button_img]
 
     def replace_template_tags(self, p):
         prompts = [
