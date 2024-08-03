@@ -98,10 +98,10 @@ class Script(scripts.Script):
         else:
             print("ui is_txt2img")
         
-        reload_button_txt = gr.Button('🔄', variant='secondary', elem_id='easy_prompt_selector_reload_button_txt2img')        
-        reload_button_img = gr.Button('🔄', variant='secondary', elem_id='easy_prompt_selector_reload_button_img2img')
-        reload_button_txt.style(size='sm')
-        reload_button_img.style(size='sm')
+        reload_button_txt = gr.Button('🔄', variant='secondary', size='sm', elem_id='easy_prompt_selector_reload_button_txt2img')        
+        reload_button_img = gr.Button('🔄', variant='secondary', size='sm', elem_id='easy_prompt_selector_reload_button_img2img')
+        # reload_button_txt.style(size='sm')
+        # reload_button_img.style(size='sm')
 
         def reload():
             self.tags = load_tags()
